@@ -1,3 +1,46 @@
 /* Adicionar aqui toda a estilização criada para sua aplicação. */
 
+/* Resests basicos */
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    margin: 0;
 
+}
+
+/* Css da parte da nacbar */
+.header{
+    background-color: black;
+    border-bottom:solid 2px aqua ;
+    padding: 20px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+
+}
+
+.header .titulo{
+    font-weight: 100;
+    color: aqua;
+ 
+
+}
+.navbar{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    list-style: none;
+    color: orange;
+}
+
+.navbar a{
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar .agora{
+    font-weight: bold;
+}
