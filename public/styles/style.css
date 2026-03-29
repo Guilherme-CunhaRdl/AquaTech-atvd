@@ -2,12 +2,18 @@
 
 /* Resests basicos */
 *{
-    font-family:Arial, Helvetica, sans-serif;
+
     margin: 0;
+    padding: 0;
 
 }
 
-/* Css da parte da nacbar */
+body{
+        height:100vh;
+        font-family:Arial, Helvetica, sans-serif;
+}
+
+
 .header{
     background-color: black;
     border-bottom:solid 2px aqua ;
@@ -44,3 +50,109 @@
 .navbar .agora{
     font-weight: bold;
 }
+
+
+/* CSS do Login*/
+
+.login{
+    min-height: 80%;
+    background-image: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: -80px;
+}
+.login .container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+
+
+/* Card Basico */
+
+.card { 
+    width: 500px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    padding: 30px 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-login{
+    height: 230px;
+}
+
+.card-cadastro{
+    height: 400px;
+}
+
+.card-login h2{
+    color: palevioletred;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+
+.formulario{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+
+
+.campo{
+    display: flex;
+    flex-direction: column;
+}
+
+.campo span{
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.campo input{
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid aqua;
+
+}
+
+.botao{
+    justify-content: center;
+    width: 150px;
+    align-self: center;
+    padding: 6px;
+    border-radius: 10px;
+    background-color:deeppink ;
+    border: none;
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bolder;
+    color: white;
+}
+
+/*Fotter*/
+
+.footer{
+    background-color: aqua;
+    width: 100%;
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.banner{
+    background-image: url(../assets/imgs/bg-jelly-fish-para-home.png);
+    background-size: cover;
+
+}
+
