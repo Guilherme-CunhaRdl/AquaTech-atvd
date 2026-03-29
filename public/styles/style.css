@@ -156,3 +156,58 @@ body{
 
 }
 
+.banner .container{    
+    display: flex;
+    width: 100%;
+    height: 70vh;
+    justify-content: flex-start;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.banner .container p {
+    width: 200px;
+    margin-left: 500px;
+    font-size: 40px;
+    text-align: justify;
+    align-self: center;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.banner .container span{
+    font-weight: bold;
+}
+
+
+.social{
+    display: flex;
+    height: 50vh;
+    align-items: center;
+}
+
+.boxes{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.box{
+    width: 15%;
+    text-align: center;
+}
+
+.box h4{
+    color: deeppink ;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.box p {
+    text-align: center;
+}
+
+.box img{
+    width: 120px;
+}
